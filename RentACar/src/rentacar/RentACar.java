@@ -9,20 +9,23 @@ package rentacar;
 import algorithmsandconstructs.BookingSystem;
 
 import algorithmsandconstructs.BookingSystemInterface;
+import algorithmsandconstructs.CarInterface;
 import algorithmsandconstructs.RentACarInterface;
 import algorithmsandconstructs.enums.Make;
 import algorithmsandconstructs.enums.Month;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
 
-// INCLUDE HERE THE LINK TO THE GIT REPOSITORY AS A COMMENT!!!!
+ //https://github.com/tuanesiqueira/algorithmsCA1
+
 
 /**
  *
  * @author apont
  */
-public class RentACar {
+public class RentACar{
 
     /**
      * Do not change the signature of the main method!
@@ -38,6 +41,7 @@ public class RentACar {
 
         RentACarInterface rentACar = bookingSystem.setupRentACar(in);
 
+        
         // Get the name of the car rental
         System.out.println(rentACar.getName());
         
