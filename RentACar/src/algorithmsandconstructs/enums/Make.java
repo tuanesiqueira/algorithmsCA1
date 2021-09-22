@@ -11,7 +11,7 @@ package algorithmsandconstructs.enums;
  * 
  * @author apont
  */
-public enum Make {
+public enum Make{
     
     TOYOTA, 
     FIAT,
